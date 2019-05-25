@@ -19,9 +19,9 @@ def monopoly_with_second_tier
 	monopoly = {
 	  monopoly = {
     :railroads => {
-      pieces: 4,
-      names: {},
-      rent_in_dollars: {}
+      :pieces => 4,
+      :names =>{},
+      :rent_in_dollars => {}
     }
   }
 
@@ -35,8 +35,8 @@ def monopoly_with_third_tier
       names: {
         reading_railroad: {},
         pennsylvania_railroad: {},
-        b_and_o_railroad : {},
-        shortline : {}
+        b_and_o_railroad: {},
+        shortline: {}
       },
       rent_in_dollars: {
         one_piece_owned: 25,
@@ -46,7 +46,6 @@ def monopoly_with_third_tier
       }
     }
   }
-
 end
 
 def monopoly_with_fourth_tier
